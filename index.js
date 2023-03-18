@@ -30,6 +30,4 @@ app.all('/step', step)
 
 
 const port = process.env.PORT || 3001;
-app.listen(port, () => {
-    console.log('Start service success! listening port: http://127.0.0.1:' + port);
-})
+app.listen(8080);
